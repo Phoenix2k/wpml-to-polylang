@@ -12,19 +12,19 @@ Before continuing, make sure you have [backed up your WordPress database][3] and
 
 String Translation
 ------------------
-If you've been using WPML's [String Translation][10] to translate your theme, you can use a [similar solution][] from Polylang or do it the [WordPress way][11].
+If you've been using WPML's [String Translation][10] to translate your theme, you can use a [similar solution][17] from Polylang or do it the [WordPress way][11].
 
-Opting for the Polylang solution will require you to register strings in your theme with its own `pll_` [functions][12], but if you want to create a future-proof theme it is recommended that you familiarize yourself with the [Internationalization][13] part of the new [Theme Developer Handbook][27] and do the localization yourself.
+Opting for the Polylang solution will require you to register strings in your theme with its own `pll_` [functions][12], but if you want to create a future-proof theme it is recommended that you familiarize yourself with the [Internationalization][13] part of the new [Theme Developer Handbook][27] and do the localization yourself via [language files][28].
 
 In any case, you will need to [export your current WPML string translations][10] to an external `.po` file. All traces of WPML will be removed by the end of this tutorial. _Export them now_.
 
 ### Exporting strings
 
-You can either export all contexts at once, or go through the relevant ones and export them to separate `.po` files. These `.po` files can be used as reference when building your theme's `.po` files from scratch using tools like [Poedit][14], Grunt or any other localization solution. If you're going for Polylang's String Translation, you will need to copy paste them by hand.
+You can either export all contexts at once, or go through the relevant ones and export them to separate `.po` files. These `.po` files can be used as reference when building your theme's `.po` files from scratch using tools like [Poedit][14], Grunt or any other localization solution. If you're going for Polylang's Strings Translation, you will need to copy paste them by hand.
 
 Note that basic things such as the site title, description and widget titles will be automatically added to Polylang's own equivalent.
 
-If you're unsure about which contexts to export, you might as well export all of them for safe keeping. You will need to export each language individually.
+If you're unsure about which contexts to export, you might as well export all of them for safe keeping. Remember to export each language individually from the box at the bottom of WPML's _String Translation_ page.
 
 Getting started
 ---------------
@@ -126,3 +126,4 @@ If you end up developing missing features for Polylang to fill up voids left by 
 [25]: https://wpml.org/documentation/support/wpml-admin-capabilities/ "WPML - Custom user capabilities"
 [26]: https://wpml.org/documentation/translating-your-contents/using-the-translation-editor/ "WPML - Translation Management"
 [27]: https://developer.wordpress.org/themes/getting-started/ "WordPress - Theme Developer Handbook"
+[28]: https://developer.wordpress.org/themes/functionality/localization/ "WordPress - Localization"
