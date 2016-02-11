@@ -2,6 +2,8 @@ WPML to Polylang
 ================
 This guide is intended for sites that have an active [WPML][1] installation and want to migrate to [Polylang][2].
 
+[![GitHub license](https://img.shields.io/badge/license-CC0%201.0-orange.svg?style=flat-square)](http://creativecommons.org/publicdomain/zero/1.0/)
+
 Some considerations
 -------------------
 Carefully assess whether this move is in any way suitable for your current site. Many of the features WPML offers out of the box are not available for Polylang and will require you to find add-ons to restore some of these features. The [WordPress plugin repository][8] is a good place to start. Your next best bet is [GitHub][9].
